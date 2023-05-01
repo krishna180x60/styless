@@ -1,3 +1,4 @@
+
 [[package]]
 name = "altair"
 version = "4.2.0"
@@ -1851,12 +1852,10 @@ streamlit-lottie = [
     {file = "streamlit-lottie-0.0.2.tar.gz", hash = "sha256:b8bb5c5a5b30e0093b7f670fc1cedeaedb7f9b7ba47b8eb0e0cb3965329389c5"},
     {file = "streamlit_lottie-0.0.2-py3-none-any.whl", hash = "sha256:2b61a2cc03935eaa9d652af7307dbd3ab3d9ffbab9b69d5e4924292d1e5f5f0b"},
 ]
-
 streamlit-player = [
     {file = "streamlit-player-0.1.0.tar.gz", hash = "sha256:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"},
     {file = "streamlit_player-0.1.0-py3-none-any.whl", hash = "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"},
 ]
-
 terminado = [
     {file = "terminado-0.15.0-py3-none-any.whl", hash = "sha256:0d5f126fbfdb5887b25ae7d9d07b0d716b1cc0ccaacc71c1f3c14d228e065197"},
     {file = "terminado-0.15.0.tar.gz", hash = "sha256:ab4eeedccfcc1e6134bfee86106af90852c69d602884ea3a1e8ca6d4486e9bfe"},

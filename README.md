@@ -16,6 +16,7 @@ Create a personal website using Python and the Streamlit library. This website w
 
 ## Requirements
 ```
+streamlit_player==0.1.0
 streamlit_lottie==0.0.2
 streamlit==1.3.0
 requests==2.24.0
