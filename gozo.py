@@ -142,6 +142,10 @@ with st.container():
         # st.markdown("[watch video...](https://youtu.be/mwB0PJKMtT8)")
     # st_player("https://video.bunnycdn.com/play/118812/0ecf2a7e-9243-48a8-b037-63ba04342f8f")
     
+with st.container():
+    st.header("chainsaw man ep1 in hindi")
+    st_player("https://video.bunnycdn.com/play/118823/5c7dea31-578b-43be-afab-68e7831245c3")
+
 
 with st.container():
     st.write("---")
