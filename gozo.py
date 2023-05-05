@@ -75,17 +75,13 @@ with st.container():
         st.header("SHARE GOZO")
         st.subheader("""with your comrades👇""")
         share_button=''' 
-        <!DOCTYPE html>
-        <html lang="en">
-          <head>
-            <meta charset="UTF-8" />
-            <title>Animated Share Button</title>
+        
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta https-equiv="X-UA-Compatible" content="ie=edge" />
             <link rel="stylesheet" href="style.css" />
             <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-          </head>
+
           <body>
             <div class="animated_share"> 
                <div class="animated_share_btn">
@@ -95,9 +91,9 @@ with st.container():
                  <a href="whatsapp://send?text=Watch/Download Anime in hindi on Gozoanime->http://gozoanime.streamlit.app"><i class="fa fa-whatsapp"></i></a>
                </div>
            </div>
-            
           </body>
-        </html>
+            
+        
         '''    
     with left_column:
         st.markdown(share_button,unsafe_allow_html=True)
