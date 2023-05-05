@@ -84,10 +84,10 @@ with st.container():
 
             <div class="animated_share"> 
                <div class="animated_share_btn">
-                 <a href="https://m.facebook.com/dialog/share?app_id=140586622674265&display=popup&href=https%3A%2F%2Fgozoanime.streamlit.app%2F%23.ZE9kpMK-hwM.facebook&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fthankyou.html"><i class="fa fa-facebook"></i></a>
-                 <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fhttp://gozoanime.streamlit.app%2Fquestions%2F24823114%2Fpost-to-reddit-via-url&title=Watch/Download%20Anime%20in%20hindi%20on%20Gozoanime->%20http://gozoanime.streamlit.app"><i class="fa fa-reddit"></i></a>
-                 <a href="https://twitter.com/intent/tweet?text=Watch/Download%20Anime%20in%20hindi%20on%20Gozoanime->%20http://gozoanime.streamlit.app"><i class="fa fa-twitter"></i></a>
-                 <a href="whatsapp://send?text=Watch/Download Anime in hindi on Gozoanime->http://gozoanime.streamlit.app"><i class="fa fa-whatsapp"></i></a>
+                 <a href="https://m.facebook.com/dialog/share?app_id=140586622674265&display=popup&href=https%3A%2F%2Fgozoanime.streamlit.app%2F%23.ZE9kpMK-hwM.facebook&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fthankyou.html" target="_main"><i class="fa fa-facebook"></i></a>
+                 <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fhttp://gozoanime.streamlit.app%2Fquestions%2F24823114%2Fpost-to-reddit-via-url&title=Watch/Download%20Anime%20in%20hindi%20on%20Gozoanime->%20http://gozoanime.streamlit.app" target="_main"><i class="fa fa-reddit"></i></a>
+                 <a href="https://twitter.com/intent/tweet?text=Watch/Download%20Anime%20in%20hindi%20on%20Gozoanime->%20http://gozoanime.streamlit.app" target="_main"><i class="fa fa-twitter"></i></a>
+                 <a href="whatsapp://send?text=Watch/Download Anime in hindi on Gozoanime->http://gozoanime.streamlit.app"><i class="fa fa-whatsapp" target="_main"></i></a>
                </div>
            </div>
             
