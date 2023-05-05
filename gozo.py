@@ -82,7 +82,6 @@ with st.container():
             <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-          <body>
             <div class="animated_share"> 
                <div class="animated_share_btn">
                  <a href="https://m.facebook.com/dialog/share?app_id=140586622674265&display=popup&href=https%3A%2F%2Fgozoanime.streamlit.app%2F%23.ZE9kpMK-hwM.facebook&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fthankyou.html"><i class="fa fa-facebook"></i></a>
@@ -91,7 +90,6 @@ with st.container():
                  <a href="whatsapp://send?text=Watch/Download Anime in hindi on Gozoanime->http://gozoanime.streamlit.app"><i class="fa fa-whatsapp"></i></a>
                </div>
            </div>
-          </body>
             
         
         '''    
