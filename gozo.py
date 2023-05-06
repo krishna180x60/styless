@@ -76,7 +76,7 @@ with st.container():
      url = 'http://localhost:8501/Home'
  
      if st.button("Visit The FullSite"):
-         webbrowser.open(https://gozoanime.world)
+         webbrowser.open("https://gozoanime.world")
 #---what i do----
 with st.container():
     st.write("---")
