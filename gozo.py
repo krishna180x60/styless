@@ -13,6 +13,10 @@ with st.container():
         head='''<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8440799604795585"
      crossorigin="anonymous"></script>'''
         st.markdown(head,unsafe_allow_html=True)
+    with left_column:
+        st.empty()
+    with right_column:
+        st.empty()
 
 def load_lottieurl(url):
     r=requests.get(url)
