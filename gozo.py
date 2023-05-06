@@ -7,7 +7,12 @@ import webbrowser
 #for emojis-> [ https://webfx.com/tools/emoji-cheat-sheet/ ]😼
 st.set_page_config(page_title='gozo',page_icon="image/icon.png",layout="wide")
 
-
+with st.container():
+    left_column,centre_column,right_column((1,3,1))
+    with centre_column:
+        head='''<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8440799604795585"
+     crossorigin="anonymous"></script>'''
+        st.markdown(head,unsafe_allow_html=True)
 
 def load_lottieurl(url):
     r=requests.get(url)
@@ -22,6 +27,7 @@ def local_css(file_name):
 
 local_css('style/style.css')
 local_css('style/sharebutton.css')
+
 
 #local js
 def local_js(file_name):
@@ -93,7 +99,6 @@ with st.container():
             
         
         '''    
-    with left_column:
         st.markdown(share_button,unsafe_allow_html=True)
     with right_column:
         st.empty()
