@@ -8,7 +8,7 @@ import webbrowser
 st.set_page_config(page_title='gozo',page_icon="image/icon.png",layout="wide")
 
 with st.container():
-    left_column,centre_column,right_column((1,3,1))
+    left_column,centre_column,right_column=st.columns((1,3,1))
     with centre_column:
         head='''<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8440799604795585"
      crossorigin="anonymous"></script>'''
