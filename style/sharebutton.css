@@ -49,5 +49,5 @@
   }
   .animated_share_btn:hover:before,
   .animated_share_btn:hover:after {
-	  left: 100%;
+	  left: -100%;
   }
