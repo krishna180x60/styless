@@ -66,17 +66,17 @@ with st.container():
 with st.container():
      st.write("---")
      st.subheader(" こんにちは、みんな! :🙃: ")
-     st.title(":red[Gozo]- The new site to watch/download anime online in hindi for free")
+     st.title("Gozo- The new site to watch/download anime online in hindi for free")
      st.write('''There is only few anime which are dubbed in hindi so we can't say. That we have big collection
                  However as time being passes we will add new anime as soon as when they get dubbed.''')
     #  st.write("[learn more >](https://gamegamesimsim.netlify.app/)")
 
 
      
-     url = 'http://localhost:8501/Home'
+     url = '#'
  
      if st.button("Visit The FullSite"):
-         webbrowser.open("https://gozoanime.world")
+         webbrowser.open("https://gozoanime.world/home")
 #---what i do----
 with st.container():
     st.write("---")
@@ -114,7 +114,7 @@ with st.container():
 #---projects--
 with st.container():
      st.write("---")
-     st.header(":blue[What] is :red[Gozoanime]?😎")
+     st.header("What is Gozoanime?😎")
      st.write(
         """Gozoanime is a platform that helps you to watch/Download anime in hindi. for free without any ads
            This is just a experiment site. so it doesn't contain any professional term. This site is Underdeveloping 
@@ -127,7 +127,7 @@ with st.container():
 
     # st.markdown("[play](https://video.bunnycdn.com/play/118812/0ecf2a7e-9243-48a8-b037-63ba04342f8f)")
     st.write("---")
-    st.header(":green[-----Is it Safe🛡?-----]")
+    st.header("-----Is it Safe🛡?-----")
     # st.write("##")
     left_column,text_column=st.columns((1,2))
     with left_column:
@@ -137,7 +137,7 @@ with st.container():
         st.subheader("This website do not require any login.")
         st.write(
             '''
-             you can access the website without any ads or login so your data will be :green[safe]
+             you can access the website without any ads or login so your data will be safe
              however but download and Videoplayer section contain some ads to cover up the server cost.\n
                 :)
             '''
@@ -152,7 +152,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.header(":red[-----If website not working, what should i do🤕?-----]")
+    st.header("-----If website not working, what should i do🤕?-----")
     left_column,text_column = st.columns((1,2))
     with left_column:
         st_lottie(lottie_fix,height=225,key="cod")
